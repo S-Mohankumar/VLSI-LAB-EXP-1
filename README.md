@@ -1,9 +1,9 @@
 # VLSI-LAB-EXPERIMENTS
-AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using vivado.
+# AIM: To simulate and synthesis Logic Gates,Adders and Subtractor using vivado.
 
-SOFTWARE REQUIRED: vivado 2023.2
+# SOFTWARE REQUIRED: vivado 2023.2
 
-PROCEDURE: 
+# PROCEDURE: 
 1. Open Vivado: Launch Xilinx Vivado software on your computer.
 
 2. Create a New Project: Click on "Create Project" from the welcome page or navigate through "File" > "Project" > "New".
@@ -22,9 +22,9 @@ PROCEDURE:
 
 9. View Results: After the simulation completes, you can view waveforms, debug signals, and analyze the behavior of your design.
 
-Logic Diagram :
+# Logic Diagram :
 
-Logic Gates:
+# Logic Gates:
 # program
 ```
 module logicgate (a,b,andgate,orgate,xorgate,nandgate,norgate,xnorgate,notgate);
@@ -45,7 +45,7 @@ endmodule
 
 
 
-Half Adder:
+# Half Adder:
 # program
 ```
 module halfadder(a,b,sum,carry);
@@ -63,7 +63,7 @@ endmodule
 
 
 
-Full adder:
+# Full adder:
 # program
 ```
 module fadd(a,b,c,sum,carry);
@@ -83,7 +83,7 @@ endmodule
 
 
 
-Half Subtractor:
+# Half Subtractor:
 # program
 ```
 module halfsubtractor(a,b,diff,borrow);
@@ -101,7 +101,7 @@ endmodule
 
 
 
-Full Subtractor:
+# Full Subtractor:
 # program
 ```
 module fs(a,b,bin,d,bout);
@@ -123,7 +123,7 @@ endmodule
 
 
 
-8 Bit Ripple Carry Adder
+# 8 Bit Ripple Carry Adder
 # program
 ```
 module ripplemod(a, b, cin, sum, cout);
@@ -165,6 +165,6 @@ endmodule
 
 
 
-RESULT:
+# RESULT:
 Hence simulate and synthesis Logic Gates,Adders and Subtractor using vivado.
 
